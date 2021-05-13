@@ -1,0 +1,51 @@
+footer {
+	display: flex;
+	flex-wrap: nowrap;
+	margin: 0 -8px -8px -8px;
+	background-color: #263543;
+}
+
+.copy-right {
+	flex: 80%;
+}
+
+.endbar {
+	flex: 20%;
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+
+.endbar-items {
+	margin: 15px;
+	margin-right: 10px;
+}
+
+.end-item {
+	margin-right: 20px;
+}
+
+i.fab {
+	color: white;
+	transition: 0.3s;
+}
+
+i.fab:hover {
+	color: #ffd43b;
+	transform: scale(1.1, 1.1);
+}
+
+.copy-right {
+	color: white;
+	font-size: 1.1em;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+	align-self: center;
+	margin-left: 50px;
+}
+
+span.footer-link > a {
+	color: white;
+}
